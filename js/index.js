@@ -26,7 +26,11 @@ function clickOutside(e){
 modalBtn.addEventListener('click', openModal);
 // Function to open modal
 function openModal(){
-  modal.style.display = 'block';
+  modal.style.display = 'block'
+// for (i = 0; i < modalBtn.length; ++i) {
+//     modalBtn[i].style.display = "block";
+// }
+
 }
 
 // Listen for close click
