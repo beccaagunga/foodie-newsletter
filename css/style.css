@@ -153,7 +153,7 @@ h5 {
 .heading h2 {
   margin: 7rem auto .5rem auto;
   font-family: 'PT Serif', serif;
-  font-size: 2.7rem;
+  font-size: 3.1rem;
   color: var(--white);
 }
 
@@ -166,7 +166,8 @@ h5 {
 }
 
 .intro p {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
+  color: rgb(240, 240, 240);
 }
 
 /* ORDER IN*/

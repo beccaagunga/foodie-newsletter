@@ -12,6 +12,7 @@
 const modal = document.getElementById('simpleModal');
 // Get modal button
 const modalBtn = document.getElementById('modalBtn');
+const modalBtn2 = document.getElementById('modalBtn2');
 //Close
 const closeBtn = document.getElementsByClassName('closeBtn')[0];
 // Listen for outside click
@@ -24,15 +25,11 @@ function clickOutside(e){
 }
 // Listen for a open click on btn
 modalBtn.addEventListener('click', openModal);
+modalBtn2.addEventListener('click', openModal);
 // Function to open modal
 function openModal(){
   modal.style.display = 'block'
-// for (i = 0; i < modalBtn.length; ++i) {
-//     modalBtn[i].style.display = "block";
-// }
-
 }
-
 // Listen for close click
 closeBtn.addEventListener('click', closeModal);
 // Function to close modal
